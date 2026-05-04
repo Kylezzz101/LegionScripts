@@ -4193,7 +4193,7 @@ class Trainer:
                 for school, box, *_ in workingSkills
             )
             charInfo = Util.getCharSkillInfo()
-            if charInfo["totalPlus"] + totalNeeded - charInfo["totalMinus"] > 720:
+            if charInfo["totalPlus"] + totalNeeded - charInfo["totalMinus"] > 10000:
                 self.errors.append("Too many distributed skill point")
 
             self.startBtn.SetWidth(0)
