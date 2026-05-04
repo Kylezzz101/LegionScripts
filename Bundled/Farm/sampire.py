@@ -3053,9 +3053,9 @@ class Sampire:
     options = [
         {
             "name": "Vampiric Embrace",
-            "isActive": True,
+            "isActive": False,
             "checkbox": None,
-            "isBuff": True,
+            "isBuff": False,
         },
         {"name": "Honor", "isActive": True, "checkbox": None, "isBuff": False},
         {"name": "Onslaught", "isActive": True, "checkbox": None, "isBuff": False},
