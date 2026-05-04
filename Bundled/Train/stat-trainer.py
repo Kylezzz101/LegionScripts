@@ -2635,8 +2635,8 @@ class StatTrainer:
         API.Stop()
 
     def _validate(self):
-        if Util.getTotalSkillPoints() < 720:
-            API.SysMsg("You must be at skill cap (720)", 33)
+        if Util.getTotalSkillPoints() < 10000:
+            API.SysMsg("You must be at skill cap (10000)", 33)
             API.Stop()
 
     def _setSkillLocks(self):
